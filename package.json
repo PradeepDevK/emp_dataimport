@@ -1,0 +1,46 @@
+{
+  "name": "emp_dataimport",
+  "version": "1.0.0",
+  "description": "user data import service",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PradeepDevK/emp_dataimport.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PradeepDevK/emp_dataimport/issues"
+  },
+  "homepage": "https://github.com/PradeepDevK/emp_dataimport#readme",
+  "dependencies": {
+    "async": "^3.1.0",
+    "body-parser": "1.19.0",
+    "compression": "^1.7.4",
+    "connect-redis": "3.0.1",
+    "express": "4.13.3",
+    "express-mung": "0.4.2",
+    "express-request-id": "1.1.0",
+    "express-session": "1.12.1",
+    "fs": "0.0.2",
+    "helmet": "2.0.0",
+    "http-proxy": "1.12.0",
+    "json2xls": "0.1.2",
+    "moment": "2.11.1",
+    "morgan": "1.6.1",
+    "multer": "1.1.0",
+    "mysql": "2.9.0",
+    "node-mysql": "0.4.2",
+    "payload-validator": "1.0.4",
+    "redis": "2.4.2",
+    "sanitation": "1.0.9",
+    "underscore": "1.8.3",
+    "validator": "4.5.2",
+    "winston": "2.1.1",
+    "xls-to-json": "0.3.2",
+    "xls-to-json-lc": "0.3.3"
+  }
+}
